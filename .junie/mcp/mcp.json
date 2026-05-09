@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Applications/MAMP/bin/php/php8.3.30/bin/php",
+            "args": [
+                "/Applications/MAMP/htdocs/Laravel13-Portfolio1/artisan",
+                "boost:mcp"
+            ]
+        }
+    }
+}

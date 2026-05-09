@@ -1,0 +1,24 @@
+{
+    "agents": [
+        "claude_code",
+        "amp",
+        "codex",
+        "copilot",
+        "junie",
+        "kiro",
+        "opencode",
+        "gemini",
+        "cursor"
+    ],
+    "cloud": true,
+    "guidelines": true,
+    "mcp": true,
+    "nightwatch": false,
+    "sail": false,
+    "skills": [
+        "laravel-best-practices",
+        "pest-testing",
+        "tailwindcss-development",
+        "deploying-laravel-cloud"
+    ]
+}
