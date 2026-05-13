@@ -1,0 +1,1 @@
+ALTER TABLE abouts RENAME TO abouts2;
