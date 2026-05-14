@@ -6,8 +6,10 @@ use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Database\Seeders\AboutSeeder;
+use Database\Seeders\EducationSeeder;
 use Database\Seeders\MediaSeeder;
 use Database\Seeders\ServiceSeeder;
+use Database\Seeders\SkillSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -27,8 +29,10 @@ class DatabaseSeeder extends Seeder
 
         $this->call(
             [AboutSeeder::class],
+            [EducationSeeder::class],
             [MediaSeeder::class],
             [ServiceSeeder::class],
+            [SkillSeeder::class],
         );
     }
 }

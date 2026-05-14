@@ -25,16 +25,16 @@ import router from '../../../router';
                             </router-link>
                         </li>
                         <li>
-                            <a  href="service.html">
+                            <router-link to="/admin/services">
                                 <span><i class="fas fa-home"> </i></span>
                                 <span>Services</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
-                            <a href="skill.html">
+                            <router-link to="/admin/skills">
                                 <span><i class="fas fa-home"> </i></span>
                                 <span>Skills</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
                             <a href="education.html">
