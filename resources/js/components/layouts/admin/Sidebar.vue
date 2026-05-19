@@ -37,16 +37,16 @@ import router from '../../../router';
                             </router-link>
                         </li>
                         <li>
-                            <a href="education.html">
+                            <router-link to="/admin/educations">
                                 <span><i class="fas fa-home"> </i></span>
                                 <span>Educations</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
-                            <a  href="experience.html">
+                            <router-link to="/admin/experiences">
                                 <span><i class="fas fa-home"> </i></span>
                                 <span>Experiences</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
                             <a  href="project.html">

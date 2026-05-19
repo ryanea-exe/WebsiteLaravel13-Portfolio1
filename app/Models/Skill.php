@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Skill extends Model
 {
-    protected $table = 'skiils';
+    protected $table = 'skills';
 
     public function service()
     {

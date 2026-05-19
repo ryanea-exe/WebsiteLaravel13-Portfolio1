@@ -7,6 +7,7 @@ use App\Http\Controllers\api\MediaController;
 use App\Http\Controllers\api\ServiceController;
 use App\Http\Controllers\api\SkillController;
 use App\Http\Controllers\api\EducationController;
+use App\Http\Controllers\api\ExperienceController;
 
 Route::get('/user', function (Request $request) {
     return $request->user();
@@ -38,3 +39,9 @@ Route::get('educations', [EducationController::class, 'index']);
 Route::post('educations', [EducationController::class, 'store']);
 Route::post('educations/{educations}', [EducationController::class, 'update']);
 Route::delete('educations/{educations}', [EducationController::class, 'destroy']);
+
+// experiences
+Route::get('experiences', [ExperienceController::class, 'index']);
+Route::post('experiences', [ExperienceController::class, 'store']);
+Route::post('experiences/{experiences}', [ExperienceController::class, 'update']);
+Route::delete('experiences/{experiences}', [ExperienceController::class, 'destroy']);

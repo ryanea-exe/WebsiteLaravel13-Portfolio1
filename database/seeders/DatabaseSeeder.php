@@ -10,6 +10,7 @@ use Database\Seeders\EducationSeeder;
 use Database\Seeders\MediaSeeder;
 use Database\Seeders\ServiceSeeder;
 use Database\Seeders\SkillSeeder;
+use Database\Seeders\ExperienceSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -33,6 +34,7 @@ class DatabaseSeeder extends Seeder
             [MediaSeeder::class],
             [ServiceSeeder::class],
             [SkillSeeder::class],
+            [ExperienceSeeder::class],
         );
     }
 }

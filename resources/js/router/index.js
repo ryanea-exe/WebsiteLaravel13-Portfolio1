@@ -6,6 +6,7 @@ import AdminMediasIndex from '../components/admin/medias/Index.vue'
 import AdminServicesIndex from '../components/admin/services/Index.vue'
 import AdminSkillsIndex from '../components/admin/skills/Index.vue'
 import AdminEducationsIndex from '../components/admin/educations/Index.vue'
+import AdminExperiencesIndex from '../components/admin/experiences/Index.vue'
 import notFoundPage from '../components/NotFoundPage.vue'
 
 const routes = [
@@ -43,6 +44,11 @@ const routes = [
         path: '/admin/educations',
         name: 'admin.educations.index',
         component: AdminEducationsIndex,
+    },
+    {
+        path: '/admin/experiences',
+        name: 'admin.experiences.index',
+        component: AdminExperiencesIndex,
     },
     {
         path: '/:any(.*)*',
